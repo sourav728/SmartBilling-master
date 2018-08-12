@@ -1,0 +1,313 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.transvision.mbc.fragments.ShowMrDetails"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:id="@+id/lin_top"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/lin_table_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TableLayout
+                android:id="@+id/table_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--Subdivision Code-->
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SUBDIV CODE:"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_show_subdiv_code"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#d32f2f"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <!--Date-->
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="DATE"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_showdate"
+                        android:layout_width="wrap_content"
+                        android:textColor="#d32f2f"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <!-- Total MR Count-->
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOTAL MR_COUNT"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_total_mr"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#d32f2f"
+                        android:textSize="14sp" />
+                </TableRow>
+                <!--Total File Provided-->
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOTAL RECORDS"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_total_records"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#d32f2f"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <!--Total Download-->
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOTAL DOWNLOAD"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_total_download"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#d32f2f"
+                        android:textSize="14sp" />
+                </TableRow>
+
+                <!--Total Billed-->
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOTAL BILLED"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_total_billed"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#d32f2f"
+                        android:textSize="14sp" />
+                </TableRow>
+                <!-- Total Unbilled-->
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="TOTAL UNBILLED"
+                        android:textSize="12sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txt_total_unbilled"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#d32f2f"
+                        android:textSize="14sp" />
+                </TableRow>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:textColor="#d32f2f"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="D--->Downloaded"/>
+                    <TextView
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:textColor="#d32f2f"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PD--->Pending Download"/>
+                </LinearLayout>
+                <!--  <Button
+                      android:id="@+id/btn_pdf"
+                      android:layout_width="275dp"
+                      android:layout_height="wrap_content"
+                      android:layout_gravity="center"
+                      android:layout_marginTop="10dp"
+                      android:background="@drawable/mybuton"
+                      android:text="Generate pdf"
+                      android:textAllCaps="false"
+                      android:textStyle="bold" />-->
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Mrcode"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="match_parent"
+                        android:background="#FF000000" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Download and\r\nTime"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="match_parent"
+                        android:background="#FF000000" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Billed and\r\nTime"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="match_parent"
+                        android:background="#FF000000" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:text="Call MR"
+                        android:textSize="8dp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:layout_width="1dip"
+                        android:layout_height="match_parent"
+                        android:background="#FF000000" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:padding="10dp"
+                        android:text="Unbilled"
+                        android:textSize="8sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black" />
+            </TableLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/mrdetails_recyclerview"
+        android:layout_marginBottom="60dp"
+        android:layout_below="@+id/lin_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@android:color/white"
+        app:itemTextColor="@android:color/white" />
+
+</RelativeLayout>
+

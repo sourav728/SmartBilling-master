@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimary"/>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp8">
+
+            <EditText
+                android:id="@+id/et_login_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User Id"
+                android:inputType="text"/>
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp8"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/et_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <include layout="@layout/dialog_buttons_layout" />
+    </LinearLayout>
+</RelativeLayout>

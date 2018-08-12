@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">MBC_Insight</string>
+
+    <string name="textview">TextView</string>
+    <string name="login_txt">LOGIN</string>
+    <string name="login_user_txt">Levels</string>
+    <string name="login_mr">MR ID</string>
+    <string name="login_password">Password</string>
+    <string name="login_date">Date</string>
+    <string name="login_admin">Admin ID</string>
+    <string name="login_btn">Login</string>
+
+    <string name="dialog_login">Login</string>
+  
+
+    <string-array name="login_role">
+        <item>--SELECT--</item>
+        <item>Corporate</item>
+        <item>Zone</item>
+        <item>Circle</item>
+        <item>Division</item>
+        <item>Subdivision</item>
+    </string-array>
+
+    <string-array name="subdivision_values">
+        <item>--SELECT--</item>
+        <item>AEE</item>
+        <item>AO</item>
+        <item>AAO</item>
+        <item>JAO</item>
+        <item>CW</item>
+    </string-array>
+
+    <string-array name="corporate_values">
+        <item>CorpEE</item>
+        <item>CorpAEE</item>
+        <item>CorpAO</item>
+        <item>CorpTL</item>
+    </string-array>
+
+    <string-array name="login_role2">
+        <item>--SELECT--</item>
+        <item>AEE</item>
+        <item>AAO</item>
+    </string-array>
+
+    <string-array name="dl_mnr">
+        <item>--SELECT--</item>
+        <item>Feeder Wise</item>
+        <item>MR/Section Wise</item>
+        <item>DL List</item>
+        <item>DL MNR Summary</item>
+    </string-array>
+
+    <string-array name="subdivision">
+        <item>--SELECT--</item>
+        <item>CSD1</item>
+        <item>CSD2</item>
+        <item>CSD3</item>
+    </string-array>
+
+    <string-array name="dlmnr_status">
+        <item>--SELECT--</item>
+        <item>DOOR LOCK</item>
+        <item>Meter Not Recording</item>
+        <item>Normal</item>
+        <item>Unauthorized Reconnection</item>
+        <item>Suspect Meter Bypass</item>
+        <item>Meter Sticky/Slow</item>
+        <item>Meter Creeping</item>
+        <item>Meter Grounding</item>
+        <item>Readind Not Visible</item>
+        <item>Meter Missing</item>
+        <item>Meter Inside The Premises</item>
+        <item>Meter Glass Broken/Damaged</item>
+        <item>Main Cover Seal Missing/Broken</item>
+        <item>Terminal Cover Seal Missing/Broken</item>
+        <item>Misuse of Tariff</item>
+        <item>Unauthorized Extension</item>
+        <item>Excess Load</item>
+        <item>Unauthorized Shifting of Meter</item>
+        <item>Suspect Meter Tampering</item>
+        <item>Incorrect Meter Position</item>
+        <item>Meter Id Not Matching</item>
+        <item>Idle/Vacant</item>
+        <item>Read On Trust</item>
+    </string-array>
+
+    <string-array name="priority">
+        <item>--SELECT--</item>
+        <item>Critical</item>
+        <item>Major</item>
+        <item>Moderate</item>
+        <item>Low</item>
+    </string-array>
+
+    <string-array name="assign_to">
+        <item>--SELECT--</item>
+        <item>HESCOM</item>
+        <item>TVD</item>
+    </string-array>
+
+    <string-array name="assign_to_hescom">
+        <item>HESCOM_AEE</item>
+        <item>HESCOM_AE</item>
+        <item>HESCOM_TrackLead</item>
+        <item>HESCOM_TrackLead2</item>
+        <item>HESCOM_AO</item>
+    </string-array>
+
+    <string-array name="assign_to_tvd">
+        <item>Admin</item>
+        <item>HK</item>
+        <item>Software</item>
+        <item>Management</item>
+        <item>Hardware</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>--SELECT--</item>
+        <item>New</item>
+        <item>Assigned</item>
+        <item>Reserved</item>
+        <item>Reassigned</item>
+        <item>Reopened</item>
+        <item>Closed</item>
+    </string-array>
+
+    <string name="title_activity_main">MBC_Insight</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="main">Main</string>
+    <string name="view_all_location">View_All_Location</string>
+    <string name="login">MBC_Insight</string>
+    <string name="login_message">Login....Please Wait...</string>
+    <string name="dialog_login_password_error">Enter password!!</string>
+    <string name="dialog_login_id_error">Enter Subdiv code!!</string>
+    <string name="demo1">Demo1</string>
+
+    <string name="billing_reports">Billing Reports</string>
+    <string name="collection_reports">Collection Reports</string>
+    <string name="other_reports">Reports</string>
+    <string name="upload">Upload</string>
+    <string name="settings">Settings</string>
+    <string name="complaints">Complaints</string>
+    <string name="logout">Logout</string>
+
+    <string-array name="tabs_list">
+        <item>Login</item>
+        <item>Demo1</item>
+    </string-array>
+
+    <string name="start_billing">SubdivLogin</string>
+    <string name="chart_billing">Billing Status in Chart</string>
+    <string name="maps_billing">Billing Status in Maps</string>
+    <string name="tc_billing">TC Billing</string>
+    <string name="start_collection">Start Collection</string>
+    <string name="maps_collection">Collection Status in Maps</string>
+    <string name="chq_details">Cheque Details</string>
+    <string name="view_bill">View Bill</string>
+    <string name="view_billed_unbilled">Check Billed Unbilled</string>
+    <string name="collection_summary">Collection Summary</string>
+    <string name="disconnection_reports">Disconnection Reports</string>
+    <string name="reconnection_reports">Reconnection Reports</string>
+    <string name="raise_complaint">Raise Complaint</string>
+    <string name="view_complaint">View Complaints</string>
+    <string name="billing_upload">Upload Billing</string>
+    <string name="collection_upload">Upload Collection</string>
+    <string name="billing_upload_backup">Show Billing Upload files</string>
+    <string name="text_size">25dp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">To be implemented Later....</string>
+    <string name="title_activity_location">Map</string>
+
+    <string name="route_distance">Distance</string>
+    <string name="route_distance_value">40.2 Km</string>
+    <string name="route_duration">Duration</string>
+    <string name="route_duration_value">48 mins</string>
+    <string name="server_error">Server error. Something when wrong with the server</string>
+    <string name="company_details">© 2018 Transvision Software &amp; Data Solutions Pvt Ltd.\n
+        All Rights Reserved\n<u>www.transvisionsolutions.com</u></string>
+
+</resources>

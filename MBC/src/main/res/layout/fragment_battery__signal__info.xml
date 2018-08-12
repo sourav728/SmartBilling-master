@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.transvision.mbc.fragments.Battery_Signal_Info">
+   <LinearLayout
+       android:layout_marginTop="200dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <TextView
+          android:layout_marginLeft="10dp"
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="15sp"
+          android:text="Battery Percentage:"/>
+      <TextView
+          android:layout_marginRight="10dp"
+          android:id="@+id/txt_battery_percentage"
+          android:layout_weight="1"
+          android:textColor="#43A047"
+          android:textStyle="bold"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20sp" />
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_marginTop="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+      <TextView
+          android:layout_marginLeft="10dp"
+          android:layout_weight="1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="15sp"
+          android:text="Signal Strength:"/>
+      <TextView
+          android:layout_marginRight="10dp"
+          android:id="@+id/txt_network_percentage"
+          android:layout_weight="1"
+          android:textColor="#43A047"
+          android:textStyle="bold"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="20sp" />
+   </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/border_style2"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="90dp"
+    tools:context="com.transvision.mbc.fragments.billing.DL_MNR_Report">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="DL-MNR Report"/>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DL MNR"/>
+        <Spinner
+            android:id="@+id/dlmnr_spinner"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Date"/>
+        <TextView
+            android:id="@+id/txt_date"
+            android:background="@drawable/border_style"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/img_fromdate"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:src="@drawable/calender"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status"/>
+        <Spinner
+            android:id="@+id/status_spinner"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></Spinner>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_preview"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:textAllCaps="false"
+        android:background="@drawable/mybuton"
+        android:text="Preview"
+        android:textStyle="bold" />
+
+</LinearLayout>

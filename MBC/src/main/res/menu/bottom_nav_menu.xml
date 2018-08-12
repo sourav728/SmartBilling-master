@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+    android:id="@+id/action_previous"
+    android:enabled="true"
+    android:title="Previous"
+        android:icon="@drawable/previous"
+    app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_print"
+        android:enabled="true"
+        android:title="Print"
+        android:icon="@drawable/print"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_next"
+        android:enabled="true"
+        android:title="Next"
+        android:icon="@drawable/next"
+        app:showAsAction="ifRoom"/>
+</menu>
